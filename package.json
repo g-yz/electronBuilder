@@ -83,7 +83,19 @@
       "window": {
         "width": 544,
         "height": 408
-      }
+      },
+      "contents": [
+        {
+          "x": 450,
+          "y": 280
+        },
+        {
+          "x": 450,
+          "y": 170,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
     }
   }
 }
