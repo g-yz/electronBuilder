@@ -49,7 +49,11 @@
     ]
   },
   "build": {
-    "appId": "Test",
+    "appId": "electron-blog-example",
+    "dmg": {
+      "appId": "electron-blog-example-only-for-mac",
+      "title": "${productName} ${version}"
+    },
     "extends": null,
     "files": [
       "*.js",
