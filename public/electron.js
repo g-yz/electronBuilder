@@ -9,7 +9,8 @@ let mainWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({width: 900, height: 680});
-  const prodPath = `${app.getAppPath()}/build/index.html`;
+  //${__dirname}
+  const prodPath = path.join(__dirname, `../build/index.html`);
   mainWindow.loadURL(isDev ? 'http://localhost:3000' :prodPath);
   if (isDev) {
     // Open the DevTools.
